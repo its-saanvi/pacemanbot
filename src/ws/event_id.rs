@@ -23,6 +23,8 @@ pub enum EventId {
     RsgEnterBastion,
     #[serde(rename = "rsg.enter_fortress")]
     RsgEnterFortress,
+    #[serde(rename = "rsg.found_fortress")]
+    RsgFoundFortress,
     #[serde(rename = "rsg.first_portal")]
     RsgFirstPortal,
     #[serde(rename = "rsg.second_portal")]
